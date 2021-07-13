@@ -6,15 +6,15 @@ export const ProjectData = [
     tags: ['ReactJS','Nodejs', 'Jest'],
     demo: 'www.youtube.com',
     github: 'www.github.com',
-    image: require('../../../assets/coding.png')
+    image: require('../../assets/coding.png').default
   },
   {
-    id: 1,
+    id: 2 ,
     title: 'test title 2',
     description: 'description text 2, here is some longer filler text to make the row spillover into the next row and hopefully looks alright in the process',
-    tags: ['ReactJS','Nodejs', 'Jest'],
+    tags: ['ReactJS','Nodejs', 'Jest','ReaasdctJS','Nodfdejs', 'Jefgst','ReawegctJS','Nodvxcvejs', 'Jeasdfwst'],
     demo: 'www.youtube.com',
     github: 'www.github.com',
-    image: require('../../../assets/coding.png')
+    image: require('../../assets/coding.png').default
   },
 ]
