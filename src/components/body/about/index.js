@@ -9,10 +9,10 @@ function About() {
         Hello there! My name is 
         <br /> <span className='info-name'>Nick Bowden. </span>
         <br />I'm a Web Developer currently based in Sequim, WA.
-        <br />Hit me up and let's build something unique
+        <br />Get in touch and let's build something unique
       </div>
       <div className='about-photo'>
-        <img src={require('../../../assets/coding.png').default} className="about-img" alt="A person peeling back the website interface to see the code underneath. That's me."></img>
+        <img src={require('../../../assets/images/coding.png').default} className="about-img" alt="A person peeling back the website interface to see the code underneath. That's me. I'm that good."></img>
       </div>
     </div>
     <div className='about-bottom'>

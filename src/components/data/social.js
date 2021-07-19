@@ -1,3 +1,4 @@
+import Pdf from '../../assets/documents/NickBowdenResume2021.pdf'
 export const SocialData = [
   {
     platform:"Linkdin",
@@ -13,5 +14,10 @@ export const SocialData = [
     platform:"Email",
     link:"mailto:bowdenn@oregonstate.edu",
     icon: require('../../assets/icons/email.png').default,
+  },
+  {
+    platform:"Resume",
+    link: Pdf,
+    icon: require('../../assets/icons/resume.png').default
   }
 ]

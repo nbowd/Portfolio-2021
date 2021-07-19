@@ -6,7 +6,7 @@ export const ProjectData = [
     tags: ['ReactJS','Nodejs', 'Jest'],
     demo: 'www.youtube.com',
     github: 'www.github.com',
-    image: require('../../assets/coding.png').default
+    image: require('../../assets/images/coding.png').default
   },
   {
     id: 2 ,
@@ -15,6 +15,6 @@ export const ProjectData = [
     tags: ['ReactJS','Nodejs', 'Jest','ReaasdctJS','Nodfdejs', 'Jefgst','ReawegctJS','Nodvxcvejs', 'Jeasdfwst'],
     demo: 'www.youtube.com',
     github: 'www.github.com',
-    image: require('../../assets/coding.png').default
+    image: require('../../assets/images/coding.png').default
   },
 ]

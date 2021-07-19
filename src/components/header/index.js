@@ -4,10 +4,17 @@ import Mobile from './mobile/index'
 import Web from './web/index'
 
 function Header() {
-  const  [isOpen, setIsOpen] = useState(false)
-  
+  const [isOpen, setIsOpen] = useState(false)
+  const handleLogoClick = () => {
+    window.scrollTo(0,0);
+  }
+
+  window.onscroll = function () {
+    setIsOpen(false);
+  };
+
   return <div className='header'>
-    <div className='logo'>Nick Bowden</div>
+    <div className='logo' onClick={handleLogoClick} >Nick Bowden</div>
     <div className='menu'>
       <div className='web-menu'>
         <Web />
