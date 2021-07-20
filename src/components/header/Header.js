@@ -5,16 +5,13 @@ import Web from './web/Web'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
-  const handleLogoClick = () => {
-    window.scrollTo(0,0);
-  }
 
   window.onscroll = function () {
     setIsOpen(false);
   };
 
   return <div className='header'>
-    <div className='logo' onClick={handleLogoClick} >Nick Bowden</div>
+    <div className='logo'><img src={require('../../assets/icons/favicon.png').default} alt="Stylized Letter N as a logo"></img></div>
     <div className='menu'>
       <div className='web-menu'>
         <Web />

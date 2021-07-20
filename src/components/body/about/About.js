@@ -12,7 +12,7 @@ function About() {
         <br />Get in touch and let's build something unique
       </div>
       <div className='about-photo'>
-        <img src={require('../../../assets/images/coding.png').default} className="about-img" alt="A person peeling back the website interface to see the code underneath. That's me. I'm that good."></img>
+        <img title="That's me. I can do that." src={require('../../../assets/images/coding.png').default} className="about-img" alt="A person peeling back the website interface to see the code underneath. That's me. I'm that good."></img>
       </div>
     </div>
     <div className='about-bottom'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './project-card.css'
+import HelpDeskVideo from '../HoverVideo'
 
 function ProjectCard({ project }) {
   return <div className='project-card'>
@@ -19,7 +20,7 @@ function ProjectCard({ project }) {
             </div>
           </a>}
       </div>
-      <p>{project.description}</p>
+      <>{project.description.split('\n').map((item, i) =><p key={i}>{item}</p>)}</>
       <div className='project-tags'>
         {project.tags.map((tag) => {
           return(
@@ -27,8 +28,9 @@ function ProjectCard({ project }) {
           )
         })}
       </div>
-    </div>   
-    <img src={project.image} className='project-photo' alt='temp'/>
+    </div> 
+    <HelpDeskVideo className='project-photo'  vidSrc={project.video} imgSrc={project.image}/>
+    
     
   </div>
   

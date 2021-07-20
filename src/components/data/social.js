@@ -1,7 +1,7 @@
 import Pdf from '../../assets/documents/NickBowdenResume2021.pdf'
 export const SocialData = [
   {
-    platform:"Linkdin",
+    platform:"Linkedin",
     link:"https://www.linkedin.com/in/nicholas-bowden/",
     icon: require('../../assets/icons/linkedin.png').default,
   },

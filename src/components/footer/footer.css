@@ -18,6 +18,18 @@
   cursor: pointer;
 }
 
+.footer-name {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer a {
+  color:black;
+}
+
+.footer a:hover {
+  color: blue;
+}
 @media only screen and (max-width:720px) {
   .footer-icon {
     height:15px

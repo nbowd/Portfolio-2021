@@ -5,6 +5,8 @@
   align-items: center;
   margin: 16px 0px;
   padding: 8px 0px;
+  overflow-wrap:break-word;
+
 }
 
 .project-photo {
@@ -13,6 +15,7 @@
 
 .project-info {
   margin-right: 24px;
+  overflow-wrap:break-word;
 }
 
 .project-title {
