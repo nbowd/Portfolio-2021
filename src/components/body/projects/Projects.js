@@ -1,7 +1,7 @@
 import React from 'react'
 import Separator from '../../common/separator/index'
 import { ProjectData } from '../../data/projects'
-import ProjectCard from './project-card'
+import ProjectCard from './ProjectCard'
 import './projects.css'
 
 function Projects() {

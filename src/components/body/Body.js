@@ -1,7 +1,7 @@
 import React from 'react'
 import './body.css'
-import About from './about/index'
-import Projects from './projects/index'
+import About from './about/About'
+import Projects from './projects/Projects'
 
 function Body() {
   return <div className='body'>

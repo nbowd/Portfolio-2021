@@ -1,8 +1,8 @@
 import React from 'react'
 import './home.css'
-import Header from '../header/index'
-import Body from '../body/index'
-import Footer from '../footer/index'
+import Header from '../header/Header'
+import Body from '../body/Body'
+import Footer from '../footer/Footer'
 
 function Home() {
   return <div className="home">
