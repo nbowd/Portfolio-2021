@@ -1,8 +1,8 @@
 export const ProjectData = [
   {
     id: 1,
-    title: 'Fullstack Blog app',
-    description: "Demo Credentials - Username:guest Password:guest \n The backend is built with Nodejs and Express while using Mongoose to communicate with MongoDB. Uses bcrypt hashing function to keep users passwords safe. There is a testing suite for the backend using Jest and Supertest. \n This app uses Cypress for End to End testing, this simulates how users can potentially interact with the website. \n The frontend is built with React, Styled Components, and Axios for routing. Styled Components allows for CSS to be applied using Javascript. \n In it's current state, this app could be used as a team message board. Allowing for communications to be asynchronous and keeping email inboxes uncluttered.",
+    title: 'Fullstack Blog List app',
+    description: "Demo Credentials - Username:guest Password:guest \n The backend is built with Nodejs and Express while using Mongoose to communicate with MongoDB. Uses bcrypt hashing function to keep users passwords safe. There is a testing suite for the backend using Jest and Supertest. \n This app uses Cypress for End to End testing, this simulates how users can potentially interact with the website. \n The frontend is built with React, Styled Components, and Axios for routing. Styled Components allows for CSS to be applied using Javascript. \n In it's current state, this app could be used as a team message board. Allowing for members to share relevant links without sending direct messages.",
     tags: ['React','Styled Components', 'Nodejs', 'Express', 'MongoDB', 'Cypress', 'Jest', 'JWT'],
     demo: 'https://serene-ravine-32193.herokuapp.com/',
     github: 'https://github.com/nbowd/blog-fullstack',
