@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio-2021/static/css/main.82dbfef4.chunk.css",
+    "main.js": "/Portfolio-2021/static/js/main.078d24fe.chunk.js",
+    "main.js.map": "/Portfolio-2021/static/js/main.078d24fe.chunk.js.map",
+    "runtime-main.js": "/Portfolio-2021/static/js/runtime-main.f58624d8.js",
+    "runtime-main.js.map": "/Portfolio-2021/static/js/runtime-main.f58624d8.js.map",
+    "static/js/2.2575f470.chunk.js": "/Portfolio-2021/static/js/2.2575f470.chunk.js",
+    "static/js/2.2575f470.chunk.js.map": "/Portfolio-2021/static/js/2.2575f470.chunk.js.map",
+    "static/js/3.6b34fe13.chunk.js": "/Portfolio-2021/static/js/3.6b34fe13.chunk.js",
+    "static/js/3.6b34fe13.chunk.js.map": "/Portfolio-2021/static/js/3.6b34fe13.chunk.js.map",
+    "index.html": "/Portfolio-2021/index.html",
+    "static/css/main.82dbfef4.chunk.css.map": "/Portfolio-2021/static/css/main.82dbfef4.chunk.css.map",
+    "static/js/2.2575f470.chunk.js.LICENSE.txt": "/Portfolio-2021/static/js/2.2575f470.chunk.js.LICENSE.txt",
+    "static/media/BlogThumb.png": "/Portfolio-2021/static/media/BlogThumb.a73592e9.png",
+    "static/media/BlogsVideo.mov": "/Portfolio-2021/static/media/BlogsVideo.b90d7cfe.mov",
+    "static/media/HelpDeskDemo.mov": "/Portfolio-2021/static/media/HelpDeskDemo.83d8e9ae.mov",
+    "static/media/HelpDeskThumb.png": "/Portfolio-2021/static/media/HelpDeskThumb.fa18da7c.png",
+    "static/media/NickBowdenResume2021.804fbcd0.pdf": "/Portfolio-2021/static/media/NickBowdenResume2021.804fbcd0.pdf",
+    "static/media/coding.png": "/Portfolio-2021/static/media/coding.4281158d.png",
+    "static/media/email.png": "/Portfolio-2021/static/media/email.08cc4f18.png",
+    "static/media/favicon.png": "/Portfolio-2021/static/media/favicon.91ffe7a1.png",
+    "static/media/github.png": "/Portfolio-2021/static/media/github.6c75ee05.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f58624d8.js",
+    "static/js/2.2575f470.chunk.js",
+    "static/css/main.82dbfef4.chunk.css",
+    "static/js/main.078d24fe.chunk.js"
+  ]
+}
