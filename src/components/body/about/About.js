@@ -8,7 +8,7 @@ function About() {
       <div className='about-info'>
         Hello there! My name is 
         <br /> <span className='info-name'>Nick Bowden. </span>
-        <br />I'm a Web Developer currently based in Sequim, WA.
+        <br />I'm a full-stack Web Developer.
         <br />Get in touch and let's build something unique
       </div>
       <div className='about-photo'>
