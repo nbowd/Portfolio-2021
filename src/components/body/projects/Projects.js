@@ -7,10 +7,9 @@ import './projects.css'
 function Projects() {
   const data = ProjectData
   return <div className='projects'>
-      <Separator />
-      <label className='section-title'>Projects</label>
+      <div><label className='section-title'>Projects</label> <hr/></div>
       {data.map((project) => {
-        return <ProjectCard key={project.id} project={project}/>
+        return <div key={project.id}><ProjectCard  project={project}/> <hr/></div>
       })}
     </div>
   

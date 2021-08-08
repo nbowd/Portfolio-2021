@@ -5,14 +5,14 @@
 }
 
 .web-option {
-  font-size: 20px;
-  margin-right: 16px;
-  font-weight: 700;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: 400;
 }
 
 .web-option a {
   text-decoration: none;
-  color: black;
+  color: #92E3A9;
   display: flex;
   align-items: center;
 }
@@ -21,5 +21,18 @@
   display:flex;
   align-items: center;
   margin-right: 4px;
+}
+
+.resume-btn {
+  border: 1px solid #92E3A9;
+  transition: ease-out .25s;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.resume-btn:hover {
+  transition: ease-out .25s;
+  background-color: rgb(57, 89, 66, 20);
+
 }
 
