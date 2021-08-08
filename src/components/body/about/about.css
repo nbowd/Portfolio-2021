@@ -15,11 +15,24 @@
 
 .about-info {
   font-size: 24px;
+  color: #CCCCCC;
+}
+
+.slim-shady, .info-c2a {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .info-name {
-  color: #9649CB;
-  font-size: 32px;
+  color: #92E3A9;
+  font-size: 70px;
+  
+}
+
+.info-highlight {
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: #ccd6f6;
 }
 
 @media only screen and (max-width:720px) {

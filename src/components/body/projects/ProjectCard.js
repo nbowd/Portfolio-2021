@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
             </div>
           </a>}
       </div>
-      <>{project.description.split('\n').map((item, i) =><p key={i}>{item}</p>)}</>
+      <div className='description-text'>{project.description.split('\n').map((item, i) =><p key={i}>{item}</p>)}</div>
       <div className='project-tags'>
         {project.tags.map((tag) => {
           return(

@@ -6,6 +6,7 @@
   align-items: center;
   margin-top: 24px;
   font-size: 12px;
+  color: #92E3A9;
 }
 
 .footer-icon {
@@ -13,7 +14,7 @@
   font-size: 16px;
   padding: 4px 8px;
   margin-bottom: 8px;
-  background-color: rgb(151, 151, 151, 0.3);
+  background-color: rgb(204,214,246, 0.4);
   border-radius: 12px;
   cursor: pointer;
 }
@@ -21,14 +22,16 @@
 .footer-name {
   font-size: 14px;
   margin-bottom: 5px;
+  color: rgb(204,214,246)
+
 }
 
 .footer a {
-  color:black;
+  color:#CCCCCC;
 }
 
 .footer a:hover {
-  color: blue;
+  color: rgb(204,214,246);
 }
 @media only screen and (max-width:720px) {
   .footer-icon {

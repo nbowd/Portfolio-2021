@@ -6,10 +6,10 @@ function About() {
   return <div className='about'>
     <div className='about-top'>
       <div className='about-info'>
-        Hello there! My name is 
-        <br /> <span className='info-name'>Nick Bowden. </span>
-        <br />I'm a full-stack Web Developer.
-        <br />Get in touch and let's build something unique
+        <div className="slim-shady">Hi, my name is </div>
+        <div className='info-name'>Nick Bowden.</div>
+        <div className="info-highlight">I build things for the web.</div>
+        <div className='info-c2a'>Get in touch and let's create something unique!</div>
       </div>
       <div className='about-photo'>
         <img title="That's me. I can do that." src={require('../../../assets/images/coding.png').default} className="about-img" alt="A person peeling back the website interface to see the code underneath. That's me. I'm that good."></img>
