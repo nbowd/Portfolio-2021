@@ -44,8 +44,7 @@ html {
 }
 body {
     background: var(--clr-dark);
-    color: white;
-    margin: 0;
+    color: var(--clr-light);
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
@@ -53,6 +52,7 @@ body {
 
 section {
     padding: 5em 2em;
+    height: 100%;
 }
 
 img {
@@ -127,7 +127,7 @@ header {
 
 .nav {
   position: fixed;
-  background: var(--clr-dark-secondary);
+  background: var(--clr-dark);
   color: var(--clr-light);
   top: 0;
   bottom: 0;
@@ -221,13 +221,14 @@ header {
 
 .intro {
     position: relative;
-    height: 101vh;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    row-gap: 0;
 }
 
 .blob {
@@ -300,14 +301,15 @@ header {
 }
 
 .about-me {
-  margin: 0 auto;
-  height: 101vh;
+  margin: auto;
+  height: 100%;
   background-image: url('/images/wave-haikei-full.svg');
   background-size: cover;
+  border: none;
  
 }
 .about-me--img {
-  max-width: 300px;
+  max-width: 200px;
   margin-left: auto;
   margin-right: auto;
 }
