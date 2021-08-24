@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nick Bowden Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header id="top">
+            <div class="logo">
+                <a href="#top"><img src="images/favicon.png" alt="N icon"></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation" id='nav-btn'>
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, my name is <strong>Nick Bowden.</strong> I build stuff.
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+            <img src="images/PCB.png" alt="an illustration of a pcb" class="intro__img blob">
+            <ul class="intro__social" id="intro-social">
+                <li class="intro__social__item"><a href="https://www.linkedin.com/in/nicholas-bowden/" class="intro__social__link"><i class="fab fa-linkedin"></i></a></li>
+                <li class="intro__social__item"><a href="https://www.github.com/nbowd" class="intro__social__link"><i class="fab fa-github"></i></a></li>
+                <li class="intro__social__item"><a href="mailto:bowdenn@oregonstate.edu" class="intro__social__link"><i class="fas fa-envelope-square"></i></a></li>
+                <li class="intro__social__item"><a href="./images/BowdenResume.pdf" target="_blank" rel="noopener noreferrer" class="intro__social__link"><i class="fas fa-file-alt"></i></a></li>
+            </ul>
+        </section>
+        
+        
+        <!-- <div class="spacer layer1"></div> -->
+        <!-- About me -->
+        <section class="about-me" id="about">
+            
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Student at Oregon State University</p>
+           
+           <div class="about-me__body">
+               <p>I'm currently studying Computer Science in the Post-baccalaureate program at OSU. My classes have given me a solid foundation to work from, allowing me to transfer knowledge and pick up new technologies quickly. I love the mix of creativity and technical detail needed to solve problems.</p>
+               <p>My first degree is in music, as a percussionist. Being a musician has given me the opportunity to work with a large variety of people and musical styles. It has given experience in leadership, communication, and empathy while teaching me the importance of fostering an environment that allows everyone to grow. </p>
+           </div>
+           
+           <img class="about-me--img" src="images/spaces.png" alt="illustration of a person pulling a website back to see the code" title="That's me. I can do that.">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="blog-list.html" class="portfolio__item">
+                    <img src="images/BlogThumb.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="helpdesk.html" class="portfolio__item">
+                    <img src="images/HelpDeskThumb.png" alt="" class="portfolio__img">
+                </a>
+            
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:bowdenn@oregonstate.edu" class="footer__link">bowdenn@oregonstate.edu</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                  <a class="social-list__link" href="https://www.linkedin.com">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a class="social-list__link" href="http://www.github.com/nbowd">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
