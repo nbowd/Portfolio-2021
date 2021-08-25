@@ -88,7 +88,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
-    align-self: end;
+    align-self: center;
     text-align: center;
 }
 
@@ -231,6 +231,7 @@ header {
     align-items: center;
     justify-content: center;
     row-gap: 0;
+    width: 100%;
     
 }
 
@@ -238,11 +239,7 @@ header {
   animation: animate 20s linear infinite;  
 }
 
-@media (min-width: 850px) {
-  .blog {
-    margin-bottom: 14rem;
-  }
-}
+
 
 .intro__img {
   box-shadow: var(--bs);
@@ -261,6 +258,7 @@ header {
 }
 
 
+
 @media (min-width: 850px) {
     .intro {
         display: grid;
@@ -274,6 +272,10 @@ header {
         grid-template-columns: min-content max-content;
     }
     
+    .blob {
+      margin-bottom: 10rem;
+    }
+
     .intro__img {
         grid-area: img;
         min-width: 250px;
@@ -282,12 +284,13 @@ header {
         /* animation: animate 20s linear infinite; */
     }    
 
-    .intro__social {
-      grid-area: links;
-    }
-
     .section__title--intro {
       text-align: start;
+      align-self: end;
+    }
+
+   .intro__social {
+      grid-area: links;
     }
 
     .section__subtitle--intro {
@@ -299,6 +302,14 @@ header {
       left: -1.5em;
       width: calc(100% + 1.5em)
     }
+}
+
+@media (min-height: 1200px) {
+  .blob { 
+    margin-bottom: 22rem;
+  }
+
+
 }
 
 @keyframes animate {
@@ -320,6 +331,7 @@ header {
 .about-me {
   margin: auto;
   height: 100%;
+  width: 100%;
   background-image: url('/images/wave-haikei-full.svg');
   background-size: cover;
   border: none;
@@ -378,17 +390,19 @@ header {
 }
 
 @media (min-width: 1200px) {
-  .about-me-content, .about-me__body {
+  .about-me-content {
     max-width: 70%;
   }
 }
+
+
 /* My Work */
 
 .my-work {
   background-image: url('/images/wave-haikei-gray.svg');
   color: var(--clr-light);
   text-align: center;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   padding-top: 10em;
 }
@@ -461,14 +475,13 @@ header {
   .footer-content {
     align-self: center;
     padding: 10rem 0 2rem 0;
-
   }
+
 }
 .intro__social {
   text-align: center;
   grid-column: -1 / 1;
   font-size: var(--fs-h3);
-  align-self: center;
 }
 .footer a, .intro__social a { 
   color: inherit;
