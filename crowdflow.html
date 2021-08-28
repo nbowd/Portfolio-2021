@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nick Bowden Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html#top"><img src="images/favicon.png" alt="N icon" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation" id="nav-btn">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro project-intro" id="home">
+      <h1 class="section__title section__title--intro project-title">
+        <strong>CrowdFlow</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Ticketing system</p>
+      <img src="images/CrowdFlow_thumbnail.png" alt="Thumbnail for crowdflow application" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <video class="portfolio__vid" src="./videos/CrowdFlow_recording.mov" onmouseover="this.play();" onmouseout="this.pause();"></video>
+      <p class="hover">Hover for video!</p>
+
+      <p>
+        <a class="portfolio__link" href="https://github.com/nbowd/CrowdFlow">Code: <i class="fas fa-code"></i></a> <br>
+      </p>
+      <p>
+        This is an admin interface for a ticketing system. This was designed with a partner for my <i>Introduction to Databases</i> class at OSU. We worked together to craft a proposal for a mock product that would service a mid-size venue (~1500 seats) to manage all of their data needs. This was accomplished by implementing a relational database after extensive group discussion and numerous peer reviews. This is an SQL MariaDB with multiple entities featuring various kinds of relationships.
+      </p>
+      <p>
+        Working on this project and the class itself was a wonderful experience. My partner and I were able to communicate effectively, which allowed us to make great progress when we collaborating on a single problem or working asynchronously. It was very satisfying to take the seed of an idea, that was created in a brainstorming session, and grow it into a functioning application. 
+      </p>
+      <p> <label class="tag">SQL</label><wbr><label class="tag">Relational Database</label><wbr><label class="tag">Node.js</label><wbr><label class="tag">Express</label><wbr><label class="tag">MariaDB</label><wbr><label class="tag">Html/CSS</label><wbr><label class="tag">Javascript</label></p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="mailto:bowdenn@oregonstate.edu" class="footer__link"
+          >bowdenn@oregonstate.edu</a
+        >
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="http://www.github.com/nbowd">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+    </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
