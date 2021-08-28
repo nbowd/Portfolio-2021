@@ -129,7 +129,7 @@ header {
 
 .nav {
   position: fixed;
-  background: var(--clr-dark);
+  background: var(--clr-dark-secondary);
   color: var(--clr-light);
   top: 0;
   bottom: 0;
