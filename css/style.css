@@ -305,12 +305,12 @@ header {
 }
 
 @media (min-height: 1200px) {
-  .blob { 
-    margin-bottom: 22rem;
-  }
-
   .intro__img {
     margin-bottom: 35rem;
+  }
+
+  .blob { 
+    margin-bottom: 22rem;
   }
 
 }
@@ -544,7 +544,6 @@ header {
   background-position: center;
   width: 100%;
   justify-content: flex-start;
-  height: 80vh;
 
 }
 
