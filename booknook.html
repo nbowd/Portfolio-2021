@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nick Bowden Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html#top"><img src="images/favicon.png" alt="N icon" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation" id="nav-btn">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction. -->
+    <section class="intro project-intro" id="home">
+      <h1 class="section__title section__title--intro project-title">
+        <strong>Booknook</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Book Recommendations</p>
+      <img src="images/BooknookThumb.png" alt="Thumbnail for booknook application" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <video class="portfolio__vid" src="./videos/BooknookVideo.mov" onmouseover="this.play();" onmouseout="this.pause();"></video>
+      <p class="hover">Hover for video!</p>
+
+      <p>
+        <a class="portfolio__link" href="https://try-booknook.herokuapp.com/">Demo: <i class="fas fa-globe"></i></a>
+        <a class="portfolio__link" href="https://github.com/nbowd/booknook">Code: <i class="fas fa-code"></i></a> <br>
+
+        <b>Note:</b> <i>Because this app is hosted on Heroku, it can take a few seconds to start. Once it is done 'spinning up' it should run smoothly. </i>
+      </p>
+      <p>
+        Web application to discover unique book recommendations based on subject. 
+        This project was built as part of an Agile team to develop with micro-services. 
+        When a subject is selected, a call is made to the OpenLibraryAPI to retrieve randomized results.
+        Users can get get more information about each book which include a description, a vendor link, 
+        and save options if logged in. Users can create an account and log in, to save books that they find for later.      </p>
+      <p>
+        The frontend was built with React with some custom components. 
+        The backend was developed with Node.js using Express.js and Axios for routing.
+        A MongoDB database was added to manage user accounts and save individual books to a user's account.
+        User token authentication is achieved with JWT and passwords are protected using the 'bcrypt' hashing function.
+      </p>
+      <p> <label class="tag">React</label><wbr><label class="tag">Node.js</label><wbr><label class="tag">Express</label><wbr><label class="tag">MongoDB</label><wbr><label class="tag">JWT</label><wbr><label class="tag">bcrypt</label><wbr><label class="tag">Microservices</label><wbr></p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <a href="mailto:bowdenn@oregonstate.edu" class="footer__link"
+          >bowdenn@oregonstate.edu</a
+        >
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="http://www.github.com/nbowd">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+    </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
