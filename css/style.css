@@ -419,17 +419,32 @@ header {
 }
 
 .portfolio__item {
+  position: relative;
   background: var(--clr-accent);
   overflow: hidden;
   margin: .25rem
 }
 
 .portfolio__img {
+  display: block;
   width: 100%;
   height: 100%;
   transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
+}
+
+
+.img-title {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.img-description {
+  display: flex;
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
 }
 
 .portfolio__item:focus {
